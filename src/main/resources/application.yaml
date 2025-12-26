@@ -1,0 +1,23 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: customer-service
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/disputelydb}
+    driverClassName: org.postgresql.Driver
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:postgres}
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+jwt:
+  secret: very-secret-key-should-be-a-minimum-of-least-256-bits=32-bytes
+  expiration-ms: 86400000 #24 hours = 1 day
+
+transaction-service:
+  base-url: http://${PAYMENTS_HOST:localhost}:8081
+dispute-service:
+  base-url: http://${DISPUTES_HOST:localhost}:8082
