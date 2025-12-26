@@ -1,4 +1,4 @@
-package com.khaya.customer_service.config;
+package com.lihle.customer_service.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

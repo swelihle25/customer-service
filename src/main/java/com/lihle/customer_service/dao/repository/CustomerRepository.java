@@ -1,6 +1,6 @@
-package com.khaya.customer_service.dao.repository;
+package com.lihle.customer_service.dao.repository;
 
-import com.khaya.customer_service.dao.entity.Customer;
+import com.lihle.customer_service.dao.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

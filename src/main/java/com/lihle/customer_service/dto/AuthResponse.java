@@ -1,6 +1,6 @@
-package com.khaya.customer_service.dto;
+package com.lihle.customer_service.dto;
 
-import com.khaya.customer_service.dao.entity.Account;
+import com.lihle.customer_service.dao.entity.Account;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

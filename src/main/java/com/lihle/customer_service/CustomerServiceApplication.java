@@ -1,4 +1,4 @@
-package com.khaya.customer_service;
+package com.lihle.customer_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

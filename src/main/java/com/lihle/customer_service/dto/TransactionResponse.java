@@ -1,4 +1,4 @@
-package com.khaya.customer_service.dto;
+package com.lihle.customer_service.dto;
 
 import lombok.Data;
 

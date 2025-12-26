@@ -1,7 +1,7 @@
-package com.khaya.customer_service.service;
+package com.lihle.customer_service.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.khaya.customer_service.dto.DisputeRequest;
+import com.lihle.customer_service.dto.DisputeRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.ParameterizedTypeReference;

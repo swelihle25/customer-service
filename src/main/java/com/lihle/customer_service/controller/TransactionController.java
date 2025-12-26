@@ -1,7 +1,7 @@
-package com.khaya.customer_service.controller;
+package com.lihle.customer_service.controller;
 
-import com.khaya.customer_service.dto.TransactionResponse;
-import com.khaya.customer_service.service.TransactionService;
+import com.lihle.customer_service.dto.TransactionResponse;
+import com.lihle.customer_service.service.TransactionService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

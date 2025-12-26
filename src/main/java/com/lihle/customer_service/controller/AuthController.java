@@ -1,10 +1,10 @@
-package com.khaya.customer_service.controller;
+package com.lihle.customer_service.controller;
 
-import com.khaya.customer_service.dao.entity.Customer;
-import com.khaya.customer_service.dao.repository.CustomerRepository;
-import com.khaya.customer_service.dto.AuthRequest;
-import com.khaya.customer_service.dto.AuthResponse;
-import com.khaya.customer_service.service.CustomerAuthService;
+import com.lihle.customer_service.dao.entity.Customer;
+import com.lihle.customer_service.dao.repository.CustomerRepository;
+import com.lihle.customer_service.dto.AuthRequest;
+import com.lihle.customer_service.dto.AuthResponse;
+import com.lihle.customer_service.service.CustomerAuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

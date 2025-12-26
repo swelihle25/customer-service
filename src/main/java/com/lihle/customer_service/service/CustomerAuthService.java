@@ -1,7 +1,7 @@
-package com.khaya.customer_service.service;
+package com.lihle.customer_service.service;
 
-import com.khaya.customer_service.config.JwtUtil;
-import com.khaya.customer_service.dao.repository.CustomerRepository;
+import com.lihle.customer_service.config.JwtUtil;
+import com.lihle.customer_service.dao.repository.CustomerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

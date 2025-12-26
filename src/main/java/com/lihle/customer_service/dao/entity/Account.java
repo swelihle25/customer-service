@@ -1,4 +1,4 @@
-package com.khaya.customer_service.dao.entity;
+package com.lihle.customer_service.dao.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

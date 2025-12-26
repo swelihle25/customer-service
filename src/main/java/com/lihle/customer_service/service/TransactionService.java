@@ -1,6 +1,6 @@
-package com.khaya.customer_service.service;
+package com.lihle.customer_service.service;
 
-import com.khaya.customer_service.dto.TransactionResponse;
+import com.lihle.customer_service.dto.TransactionResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
