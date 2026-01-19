@@ -54,4 +54,4 @@ Key configuration is managed inside `application.yml`, including:
 
 ## 👤 Author
 
-**Khayelihle Ngcobo** 
+**Swelihle Khuzwayo** 
